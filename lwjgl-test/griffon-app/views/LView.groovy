@@ -1,7 +1,8 @@
 import org.lwjgl.opengl.GL11
 
 float angle = 0f
-
+// See http://jameswilliams.be/blog/entry/149 for another way to manage your GL calls
+// if your paint closure gets too big to concisely include in the view
 application(title:'LWJGL test', 
   size:[320,320],
   locationByPlatform:true,
